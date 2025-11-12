@@ -806,10 +806,21 @@
             }
             
             .zone-info {
+position: absolute;
+        bottom: 0;
         right: 10px;
+        background: var(--card-bg);
         padding: 6px 15px;
+        border-radius: 6px 6px 0 0;
         font-size: 0.7rem;
+        color: var(--text-muted);
+        z-index: 1000;
+        backdrop-filter: blur(5px);
+        border: 1px solid var(--card-border);
+        border-bottom: none;
         min-width: 100px;
+        text-align: center;
+        margin: 0;
             }
             
             .map-btn {
@@ -2027,4 +2038,5 @@
         });
     </script>
 </body>
+
 </html>
